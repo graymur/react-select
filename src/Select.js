@@ -886,7 +886,7 @@ var Select = React.createClass({
 
 		if (!this.props.disabled) {
 			if (this.props.searchable) {
-				input = <Input value={this.state.inputValue} onChange={this.handleInputChange} minWidth="5" {...inputProps} />;
+				input = <Input value={this.state.inputValue} onChange={this.handleInputChange} {...inputProps} />;
 			} else {
 				input = <div {...inputProps}>&nbsp;</div>;
 			}
